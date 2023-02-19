@@ -4,12 +4,63 @@
     font-size:  large;
     font-family: 'Times New Roman', Times, serif;
 }
-header {
+/* Header with search */
+header{
     background-color: coral;
     width: auto;
-    height: auto;
-   padding: 0 5%;
+    height: 100px;
+}
+.header_with_search{
+    padding: 0px 80px ;
+    display: flex;
+    align-items: center;
+}
+/* .header_logo {
+   
+} */
+.header_search{
+    height: 40px;
+    flex: 1;
+    background-color: white;
+    border-radius: 5px;
+}
+.search{
+    border: none;
+    outline: none;
+    padding: 10px 0px 0px 40px;
+}
+.header_search_btn{
+    background-color:white ;
+    color: darkgray;
+    border: none;
+    min-width: 100px;
+    min-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    margin: 5px 30px 0 0;
+    
+}
+.header_search_btn_icon{
+    font-size: 1rem;
+    color:darkgrey;
   
+}
+.header_search_btn:hover{
+    transition: 0.2s;
+    opacity: 0.8;
+    background-color: lightgray;
+}
+.header_cart{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.header_cart_icon{
+    color:white;
+    font-size: 2rem;
+    margin-top: 5px;
 }
 nav{
     background-color: gold;
@@ -28,8 +79,44 @@ nav .menu ul li a{
     font-size: large;
     text-decoration: none;
 }
-nav .search{
+
+/*Thanh tìm kiếm*/
+/* nav div{
     line-height: 40px;
-    float: right;
     margin: 0 50px;
+}
+nav .search{
+    border-color: yellow;
+    border-radius: 5px;
+    min-height: 25px;
+    outline: none;
+    padding-left: 10px;
+}
+nav .btn{
+    border-radius: 5px;
+    padding: 2px 0px 2px 0px;
+    min-width: 100px;
+    cursor: pointer;
+    border-color: goldenrod; 
+}
+nav .btn:hover{
+    opacity: 0.8;
+    transition: 0.3s linear;
+    border-color: aliceblue;
+    background-color: khaki;
+} */
+
+section .img01 article a img{
+    width: 800px;
+    height: 100px;
+}
+footer {
+    background-color: khaki;
+    text-align: center;
+ 
+}
+footer h2 img{
+    width: 50px;
+    height: 50px;
+    
 }
